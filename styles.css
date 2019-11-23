@@ -1,42 +1,193 @@
 html{
-	background-color: #E0E0E2;
+	background-color: #ef3965;
+	font-family: lato, sans-serif;
 }
 
-body{
-	font-family: tahoma;
-}
-/*h1{
-	color: #444;
+header {
 	text-align: center;
+	background-color: #f1b6d2;
+	color: #fff;
+	padding: 20px;
 }
 
-h2{
-	color: #444;
-	text-align: center;
+h1 {
+	font-size: 3.8em;
 }
 
-h3{
-	color: #444;
-	text-align:center;
-}*/
+h2 {
+	fontsize: 3.5em;
+}
+h3 {
+	font-weight: 500;
+	font-size: 2em;
+}
 
-a{
-	color: #416788;
+p {
+	font-size: 1.5em;
 }
 
 img{
-
+	width: 100%;
+	height: auto;
 }
 
-header{
-	color: #444;
+ul li {
+	font-size: 1.5em;
 	text-align: center;
-	background-color: #c6c6c6;
-	border-radius: 25px;
-	padding: 15px;
+	list-style-type: none;
 }
+
+footer {
+	text-align: center;
+	color: #fff;
+}
+
 .grid-container {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 	padding: 10px;
+}
+
+#the-code {
+	background-color:#f4ddae;
+	border: solid 10px #e7b67f;
+	color: #9a856d;
+}
+
+#the-cupcakes {
+	background-color:#03A696;
+	border: solid 10px #039486;
+	color: #fff;
+	text-align: center;
+}
+
+#the-team {
+	background-color:#666b8f;
+	border: solid 10px #484e78;
+	color: #fff;
+	text-align: center;
+}
+
+#sessions {
+	background-color:#f1b6d2;
+	border: solid 10px #f3c6dc;
+	color: #fff;
+	text-align: center;
+}
+
+#contact {
+	background-color:#fff;
+	border: solid 10px #009875;
+	color: #009875;
+	text-align: center;
+}
+
+.img25 {
+	width: 25%;
+	height: 25%;
+	padding: 20px;
+}
+
+.img50 {
+	width: 50%;
+	height: 50%;
+	padding: 20px;
+}
+
+.cupcakes {
+	border-radius: 100%;
+}
+
+.sweetPetitesFont {
+	font-family: Alex Brush, serif;
+}
+
+.sectionTitle {
+	grid-column: 1 / span 10;
+	text-align: center;
+}
+
+.centeredGrid {
+	grid-column: 2 / span 8;
+	grid-row: 2;
+}
+
+.cupcake1 {
+	grid-column: 1 / span 2;
+	grid-row: 2 / span 2;
+}
+
+.cupcake2 {
+	grid-column: 3 / span 2;
+	grid-row: 2 / span 2;
+}
+
+.cupcake3 {
+	grid-column: 1 / span 2;
+	grid-row: 4 / span 2;
+}
+
+.cupcake4 {
+	grid-column: 3 / span 2;
+	grid-row: 4 / span 2;
+}
+
+.codeText1 {
+	grid-column: 5 / span 6;
+	grid-row: 2 / span 1;
+}
+
+.codeText2 {
+	grid-column: 5 / span 6;
+	grid-row: 3 / span 1;
+}
+
+.codeText3 {
+	grid-column: 5 / span 6;
+	grid-row: 4 / span 1;
+}
+
+.codeText4 {
+	grid-column: 5 / span 6;
+	grid-row: 5 / span 1;
+}
+
+.team{
+	grid-template-areas:
+	'image image image image image image image image image image'
+	'name name name name name name name name name name'
+	'title title title title title title title title title title';
+}
+
+.teamImages {
+	border-radius: 100%;
+	grid-area: image;
+}
+
+.name {
+	grid-area: name;
+}
+
+.title {
+	grid-area: title;
+}
+
+.teamMember1 {
+	grid-column: 4 / span 4;
+	grid-row: 3 / span 3;
+}
+
+.teamMember2 {
+	grid-column: 4 / span 4;
+	grid-row: 6 / span 3;
+}
+
+.teamMember3 {
+	grid-column: 4 / span 4;
+	grid-row: 9 / span 3;
+}
+
+.teamMember4 {
+	grid-column: 4 / span 4;
+	grid-row: 12 / span 3;
 }
