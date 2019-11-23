@@ -1,0 +1,42 @@
+html{
+	background-color: #E0E0E2;
+}
+
+body{
+	font-family: tahoma;
+}
+/*h1{
+	color: #444;
+	text-align: center;
+}
+
+h2{
+	color: #444;
+	text-align: center;
+}
+
+h3{
+	color: #444;
+	text-align:center;
+}*/
+
+a{
+	color: #416788;
+}
+
+img{
+
+}
+
+header{
+	color: #444;
+	text-align: center;
+	background-color: #c6c6c6;
+	border-radius: 25px;
+	padding: 15px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
